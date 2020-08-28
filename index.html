@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer="" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: 'Oleo Script', cursive; ">
+    <!--Header start-->
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-md w-100 align-items-center mt-4">
+                   
+                    <a href="index.html" style="font-size: 40px; color: #000000;" class="navbar-brand">Portfolio.</a>
+                    <div class="menu-toggle" onclick="clickBar()">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div id="need" class="collapse navbar-collapse ">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item" ><a href="#" class="nav-link mx-3 ">Home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link mx-3">About</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link mx-3">Works</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link mx-3">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                </nav>
+            </div>
+           
+            <div class="row">
+                <div class="introduce">
+                    <h1>My name is Phuong</h1>
+                    <h5>I'm a newbie frontend web developer</h5>
+                </div>
+            </div>
+           
+        </div>
+        
+    </section>
+    <!--Header end-->
+    <!--Who is me? start-->
+    
+    <section class="whoisme" style="background-color: rgb(255, 184, 173);">
+        <div class="container align-items-center">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="image-shadow">
+                        <div class="image">
+                            <img id="image-intro" src="image/phuong.jpg">
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-6 col-md-12 mt-auto whoAmI">
+                    <h5 class="hello" style="font-size: 50px;">Hello</h5>
+                    <h5 style="font-size: 30px;">Who am I?</h5>
+                    <p>I'm 21 years old.
+                        I was a student at PTIT university</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Who is me? end-->
+    <!--My project start-->
+    
+    <section class="myProject">
+        <div class="container align-items-center">
+            <div class="row work">
+                <h1 class="project">My project</h1>
+                <div class="list-project">
+                    <div id="menu-project" class="navbar">
+                        <div class="nav-item" ><a class="nav-link filter " id="All" href="">All</a></div>
+                        <div class="nav-item" ><a class="nav-link filter " id="API" href="">API project</a></div>
+                        <div class="nav-item" ><a class="nav-link filter " id="Javascript" href="">Javascript</a></div>
+                        <div class="nav-item" ><a class="nav-link filter " id="HTML/CSS" href="">HTML/CSS website</a> </div>
+                    </div>
+                </div>
+                <div class="menu-picture row text-center mb-5" id="menu-picture">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--My project end-->
+    
+    <section class="contact" style="background-color:#131313; color: rgb(255, 116, 139);">
+        <div class="container align-items-center ">         
+                <div class="contactToMe text-center">
+                    <h5 class="getIntouch">Get in touch...</h5>
+                    <h1>Contact</h1>
+                    
+                        <div class="row methodsContact text-center mt-3 mb-3">
+                            <a href="#" class="nav-link col-lg-4 col-md-12"><i class="far fa-envelope mr-2"></i>phuongtracy27@gmail.com</a>
+                            <a href="#" class="nav-link col-lg-4 col-md-12"><i class="fas fa-phone mr-2"></i>0364663064</a>
+                            <a href="#" class="nav-link col-lg-4 col-md-12"><i class="fas fa-map-marker-alt mr-2"></i>Ha Dong, Ha Noi</a>
+                        </div>
+                    <div class="row mediaIcon">
+                        <div class="list-icon ">
+                            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="nav-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="nav-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div> 
+        </div>
+    </section>
+    
+    <!--My project end-->
+    <script src="main.js"></script>
+    <script>
+        function clickBar(){
+            document.body.classList.toggle('open');
+            document.getElementById('need').classList.add('show');
+        }
+    </script>
+</body>
+</html>
