@@ -1,0 +1,47 @@
+<<<<<<< HEAD
+body {
+    background-color: #3498db;
+  }
+  
+  .slider {
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .slider h1 {
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+    height: 100%;
+  }
+  
+  
+=======
+body {
+    background-color: #3498db;
+  }
+  
+  .slider {
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .slider h1 {
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+    height: 100%;
+  }
+  
+  
+>>>>>>> ccae73a57ab644846c68d6990fca7ef84ea9363d
